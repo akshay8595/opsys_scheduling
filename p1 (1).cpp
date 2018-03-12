@@ -71,7 +71,7 @@ void init(struct process *p, char *line[], int n) //initialize the lines into pr
     }
 }
 
-/*
+
 int FIFO(struct process *p, int n, int t_cs)
 {
     queue <struct process*> ready_queue;
@@ -379,7 +379,7 @@ int RR(struct process *p, int n, int t_cs, int t_slice)
     cout<<"time "<<--clock<<"ms: Simulator ended for Round Robin\n";
 return EXIT_SUCCESS;
 }
-
+/*
 struct comparison // sorting the priority queue
 {
     bool operator()(struct process *p1, struct process *p2)
